@@ -3,7 +3,7 @@ import Todos from "./components/Todos";
 
 function App() {
   return (
-    <div>
+    <div className="mx-[10%]">
       <AddTodo />
       <Todos />
     </div>

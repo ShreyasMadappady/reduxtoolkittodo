@@ -7,7 +7,7 @@ function Todos() {
 
   return (
     <>
-      <div className="flex justify-center font-semibold">Todos</div>
+      <div className="flex justify-center font-semibold mt-8">Todos</div>
       <ul className="list-none">
         {todos.map((todo) => (
           <li
